@@ -1,0 +1,258 @@
+
+[
+  
+  {
+    "id": 1,
+    "title": "Camiseta cálida manga larga de senderismo - SH100 - Hombre ",
+    "price":11.99 ,
+    "brand": "Quechua",
+    "category":"Remeras",
+    "details": "Esta camiseta cálida y transpirable te aportará comodidad en tus salidas de senderismo con tiempo frío. Cuello con cremallera y piezas de tejido mesh que favorecen la ventilación para que disfrutes de una buena experiencia. ",
+    "color": "Azul",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1648029/k$df7cba3ca8560a588f2f4cd665aeff2e/sq/camiseta-calida-manga-larga-de-senderismo-sh100-hombre.jpg?f=500x500",
+    "rating": 4
+  },
+  
+  {
+    "id": 2,
+    "title": "Camiseta de montaña y trekking manga larga Hombre NH100",
+    "price": 14.99,
+    "brand": "Quechua",
+    "category":"Remeras",
+    "details": "Esta camiseta de manga larga ha sido diseñada, de forma sostenible, para tus rutas por la naturaleza o tu día a día con tiempo fresco.",
+    "color": "Azul",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2350580/k$d42d1d38e11218191d78c205941e3dc8/sq/camiseta-de-montana-y-trekking-manga-larga-hombre-quechua-nh100.jpg?f=500x500",
+    "rating": 3
+  },
+  
+
+  {
+    "id": 3,
+    "title": "Camiseta Fitness Hombre Verde Manga Corta Algodón",
+    "price": 12.99,
+    "brand": "Puma",
+    "category":"Remeras",
+    "details": "Diseñada para el fitness, esta camiseta 100 % algodón es perfecta para tener estilo y comodidad en el gimnasio o en cualquier otro lugar",
+    "color": "Verde",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2518549/k$a4903ee4a92874a68bc1214d69a4d47e/sq/camiseta-fitness-puma-hombre-verde-manga-corta-algodon.jpg?f=500x500",
+    "rating": 4
+  },
+
+  {
+    "id": 4,
+    "title": "Camiseta Fitness Cardio Hombre ",
+    "price": 14.99,
+    "brand": "Adidas",
+    "category":"Remeras",
+    "details": "Esta camiseta versátil es perfecta para el entrenamiento. Equipada con la tecnología AEROREADY que evacúa el sudor, ofreciendo la máxima comodidad durante el entrenamiento.",
+    "color": "Azul",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2418686/k$42a0da43e2ba7045b2db64e10fa3ecfd/sq/camiseta-fitness-cardio-adidas-hombre-azul.jpg?f=500x500",
+    "rating": 4
+  },
+
+
+  {
+    "id": 5,
+    "title": "Camiseta montaña y trekking de manga larga Hombre MH550",
+    "price": 17.99,
+    "brand": "Quechua",
+    "category":"Remeras",
+    "details": "Ideal para las mañanas frescas o para la cima. Te encantará esta camiseta por su capacidad para absorber y evacuar la sudoración. ",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1950299/k$e16c77eca1b3905fce930c87c6333900/sq/camiseta-montana-y-trekking-de-manga-larga-hombre-quechua-mh550-gris.jpg?f=500x500",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "Pantalón de montaña y trekking Hombre Quechua NH100",
+    "price": 14.99,
+    "brand": "Quechua ",
+    "category":"Pantalón",
+    "details": "Su tejido y el corte amplio te permitirán una gran libertad de movimientos. Además, cuenta con cuatro bolsillos para poder llevar tus objetos personales",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2437424/k$2f767bd2bd851e2c13b6ab3687f84627/sq/pantalon-de-montana-y-trekking-hombre-quechua-nh100.jpg?f=500x500",
+    "rating": 3
+  },
+
+  {
+    "id": 7,
+    "title": "Pantalón Fitness Soft Training Hombre Gris",
+    "price": 32.99 ,
+    "brand": "Adidas",
+    "category":"Pantalón",
+    "details": "Este pantalón Adidas de inspiración deportiva te acompaña en los momentos decisivos de tu día. Prenda diseñada para la práctica deportiva habitual y para llevarla durante todo el día.",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2332090/k$51fddc93375b76c70ec5284e9b8a2478/sq/pantalon-fitness-soft-training-adidas-hombre-gris.jpg?f=500x500",
+    "rating": 2
+  },
+
+  {
+    "id": 8,
+    "title": "Short fitness pantalón corto chándal Hombre FST 100",
+    "price": 6.99,
+    "brand": "Domyos",
+    "category":"Pantalón",
+    "details": "Tanto si te inicias en el fitness como si retomas la actividad deportiva en el gimnasio, este pantalón corto extensible, transpirable y cómodo será tu mejor aliado",
+    "color": "Negro",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1724793/k$6a8ae390b420598525cdf352ca19fde4/sq/short-fitness-pantalon-corto-chandal-hombre-domyos-fst-100-negro.jpg?f=500x500",
+    "rating": 5
+  },
+
+  {
+    "id": 9,
+    "title": "Pantalón De Caza Hombre Steppe 300 Verde Resistente Multibolsillos",
+    "price": 19.99 ,
+    "brand": "Solognac",
+    "category":"Pantalón",
+    "details": "Diseñado para todas las modalidades de caza mayor y menor con tiempo seco. Adecuado para la observacion de la naturaleza, fotografia, bushcraft y supervivencia",
+    "color": "Verde ",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2105150/k$b055d0f36a38ee20a37df9c7826771d0/sq/pantalon-de-caza-hombre-solognac-steppe-300-verde-resistente-multibolsillos.jpg?f=500x500",
+    "rating": 2
+  },
+
+
+  {
+    "id": 10,
+    "title": "Camiseta Fitness Cardio Camo Hombre",
+    "price": 21.99,
+    "brand": "Adidas",
+    "category":"Remeras",
+    "details": "Esta camiseta versátil, ecodiseñada y con estilo con su estampado de camuflaje es perfecta para entrenar. Equipada con la tecnología AEROREADY que evacua el sudor, te ofrece la máxima comodidad.",
+    "color": "Estampado",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2455774/k$5c61e4c7d537d346115e1d663abe3b94/sq/camiseta-fitness-cardio-adidas-camo-hombre.jpg?f=500x500",
+    "rating": 5
+  },
+
+  {
+    "id": 11,
+    "title": "Camiseta de montaña y trekking manga corta Hombre MH100",
+    "price": 6.99 ,
+    "brand": "Quechua",
+    "category":"Remeras",
+    "details": "Camiseta ideal para tus primeras excursiones en la montaña. Esta camiseta de manga corta ha sido diseñada para tus rutas de montaña con tiempo cálido.",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1950341/k$273bb4c8e6db8b7a81bcafc09ab55315/sq/camiseta-de-montana-y-trekking-manga-corta-hombre-quechua-mh100.jpg?f=500x500",
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "title": "Pantalón desmontable de montaña y trekking Hombre MT100",
+    "price": 29.99,
+    "brand": "Forclaz",
+    "category":"Pantalón",
+    "details": "Su tejido es resistente y duradero. A su vez, ofrece un secado rápido y zonas de refuerzo con efecto perlante",
+    "color": "Gris Negro",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2137360/k$4fc688d02602a0a6412594583ffcdfb7/sq/pantalon-desmontable-de-montana-y-trekking-hombre-forclaz-mt100.jpg?f=500x500",
+    "rating": 4
+  },
+ 
+
+  {
+    "id": 13,
+    "title": "Zapatillas de montaña y trekking impermeables Hombre MH100",
+    "price": 44.99,
+    "brand": "Quechua",
+    "category":"Zapatillas",
+    "details": "Esta zapatilla tiene una suela con buen agarre, un exterior impermeable, que te permitirá tener los pies secos hasta 3 horas con cualquier tiempo. Además, cuenta con refuerzo en la puntera.",
+    "color": "Azul",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1568366/k$4f6316f2a16a0be90efe1edd6b13382f/sq/zapatillas-de-montana-y-trekking-impermeables-hombre-quechua-mh100.jpg?f=500x500",
+    "rating": 5
+  },
+
+  {
+    "id": 14,
+    "title": "Zapatillas de montaña y trekking Gore-Tex Hombre Capra",
+    "price": 109.99,
+    "brand": "Merrell",
+    "category":"Zapatillas",
+    "details": "Es una zapatilla resistente, con suela Vibram Megagrip para proporcionar el mejor agarre, y una buena protección con refuerzo en la puntera y el talón",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1811762/k$7c25c27c0f0966b2df02abca4634e1c7/sq/zapatillas-de-montana-y-trekking-gore-tex-hombre-merrell-capra.jpg?f=500x500",
+    "rating": 2
+  },
+
+  {
+    "id": 15,
+    "title": "Zapatillas de montaña y trekking impermeables Hombre Redmond",
+    "price": 79.99,
+    "brand": "Columbia",
+    "category":"Zapatillas",
+    "details": "Su suela Omnigrip te proporcionará un agarre óptimo en tus rutas. Además, el refuerzo de la puntera te protegerá en los terrenos pedregosos",
+    "color": "Marron",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2175755/k$661b21f6b46bf0577052caf4bac66be8/sq/zapatillas-de-montana-y-trekking-impermeables-hombre-columbia-redmond.jpg?f=500x500",
+    "rating": 3
+  },
+
+  {
+    "id": 16,
+    "title": "Zapatilla de montaña y trekking Hombre Crosslander",
+    "price": 79.99,
+    "brand": "Merrell",
+    "category":"Zapatillas",
+    "details": "Su suela Merrell® y la tecnología Merrell® Air-Cushion en el talón te proporcionarán un gran agarre y adherencia. Además, cuentan con un refuerzo en la puntera para los terrenos pedregosos.",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2149685/k$9f7e0495639af29ba06380b5c0231f15/sq/zapatilla-de-montana-y-trekking-hombre-merrell-crosslander.jpg?f=500x500",
+    "rating": 5
+  },
+
+  {
+    "id": 17,
+    "title": "Zapatillas de montaña y trekking Gore-Tex Hombre X-Ultra Pioneer",
+    "price": 104.99,
+    "brand": "Salomon",
+    "category":"Zapatillas",
+    "details": "Estas zapatillas técnicas están provistas de un chasis estable, de una protección reforzada en la puntera y de suela Contagrip para una conseguir una experiencia única.",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2501685/k$dd500a6b8e7baa4f1ebaec79b03054ce/sq/zapatillas-de-montana-y-trekking-gore-tex-hombre-salomon-x-ultra-pioneer.jpg?f=500x500",
+    "rating": 4
+  },
+
+  {
+    "id": 18,
+    "title": "Zapatillas de montaña y trekking Hombre MH100 gris",
+    "price": 34.99,
+    "brand": "Quechua",
+    "category":"Zapatillas",
+    "details": "Su suela de caucho y la amortiguación en todo el largo del pie proporcionan un gran agarre y amortiguación. Cuenta con un refuerzo duradero de caucho para terrenos pedregosos",
+    "color": "Gris",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1845096/k$12fcc9f726ea60519a0c24b970dd4af7/sq/zapatillas-de-montana-y-trekking-hombre-quechua-mh100-gris.jpg?f=500x500",
+    "rating": 3
+  },
+
+  {
+    "id": 19,
+    "title": "Mochila de montaña y trekking 45L+10L MT500 Air con funda impermeable",
+    "price": 109.99,
+    "brand": "Forclaz",
+    "category":"Mochilas",
+    "details": "a serie MT500 AIR, evolución de la TREK 500, adopta una nueva espalda de malla estirada y un nuevo componente de poliamida que aúna ligereza y resistencia ¡Mochila ideal para todo tipo de senderismo!",
+    "color": "Azul",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2148630/k$c01e1c355dfb6668d4f5acf13eeca211/sq/mochila-de-montana-y-trekking-45l10l-forclaz-mt500-air-con-funda-impermeable.jpg?f=500x500",
+    "rating": 5
+  },
+
+  {
+    "id": 20,
+    "title": "Mochila de montaña y trekking 30L NH100",
+    "price": 19.99,
+    "brand": "Quechua",
+    "category":"Mochilas",
+    "details": "Cuenta con 6 bolsillos, con un separados para portátil de hasta 15”. Además, encontrarás portabastones en el lateral, portamantas y un elástico para transportar la chaqueta. ¡Garantía de 10 años!",
+    "color": "Negro",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p1805400/k$3be21290c14d1b430f5c7bfefda40cee/sq/mochila-de-montana-y-trekking-30l-quechua-nh100-equipaje-de-mano.jpg?f=500x500",
+    "rating": 4
+  },
+
+  {
+    "id": 21,
+    "title": "Mochila de montaña y trekking 30L MH500",
+    "price": 59.99,
+    "brand": "Quechua",
+    "category":"Mochilas",
+    "details": "Mochila diseñada buscando la comodidad, con espalda de malla tensada aireada para el senderismo en montaña. Sus dimensiones son 63cmx30cmx23cm y peso de 1,2Kg.",
+    "color": "Verde",
+    "thumbnailUrl": "https://contents.mediadecathlon.com/p2422533/k$3001c03cd39a03eee0548bdde3247fa1/sq/mochila-de-montana-y-trekking-30l-quechua-mh500-funda-impermeable.jpg?f=500x500",
+    "rating": 3
+  }
+
+]
