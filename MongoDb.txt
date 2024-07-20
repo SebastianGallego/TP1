@@ -1,0 +1,7 @@
+usr: sebastiangallego        
+psw: sgMongoDB
+
+url: mongodb+srv://sebastiangallego:<password>@mymongodbcluster.vdymkn3.mongodb.net/ 
+
+
+url: mongodb+srv://sebastiangallego:<sgMongoDB>@mymongodbcluster.vdymkn3.mongodb.net/ 
