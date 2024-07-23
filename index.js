@@ -4,28 +4,32 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
 
+const {
+  connectToMongoDB,
+  disconnectToMongoDB,
+} = require("./src/config/mongodb");
+
+app.use((req, res, next) => {
+  res.header("Content-Type", "application/json; charset = utf8");
+  next();
+});
+
 const PORT = process.env.PORT || 3000;
 
-//Pruebo con un json
-const data = require("./productos.json");
-
 // ruta principal del servidor web Express
-
 app.get("/", (req, res) => {
-  console.log(req);
-  res.send("<H1>Api Server Funcionando</H1>");
-});
-
-app.get("/productos", (req, res) => {
-  console.log(req);
-  res.json(data);
-});
-
-app.get("/contacto", (req, res) => {
-  console.log(req);
-  res.send("<H1>Llamame....</H1>");
+  res.status(200).end("Api Express");
 });
 
 app.listen(PORT, () => {
   console.log("Server Run: http://localhost:3000");
+});
+
+app.get("/productos", async (req, res) => {
+  const client = await connectToMongoDB();
+  const db = client.db("decathlon");
+  const productos = await db.collection("productos").find().toArray();
+
+  await disconnectToMongoDB();
+  res.json(productos);
 });

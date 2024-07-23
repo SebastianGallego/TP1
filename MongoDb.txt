@@ -1,7 +1,11 @@
 usr: sebastiangallego        
-psw: sgMongoDB
+psw: B0F47eV42XPvjNzz
 
 url: mongodb+srv://sebastiangallego:<password>@mymongodbcluster.vdymkn3.mongodb.net/ 
 
 
-url: mongodb+srv://sebastiangallego:<sgMongoDB>@mymongodbcluster.vdymkn3.mongodb.net/ 
+Compass
+url: mongodb+srv://sebastiangallego:B0F47eV42XPvjNzz@mymongodbcluster.vdymkn3.mongodb.net/ 
+
+
+sin los signos <>
