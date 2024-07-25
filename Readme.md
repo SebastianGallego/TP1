@@ -25,7 +25,7 @@ Para ejecutar esta API localmente, sigue estos pasos:
 
 La base de datos está creada a partir de un archivo json utilizado en el trabajo practico de JavaScript de la Diplomatura en Frontend
 Escructura del json:
-
+```json
 {
 "id": 2,
 "title": "Camiseta de montaña y trekking manga larga Hombre NH100",
