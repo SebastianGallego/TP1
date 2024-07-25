@@ -25,7 +25,7 @@ Para ejecutar esta API localmente, sigue estos pasos:
 
 La base de datos está creada a partir de un archivo json utilizado en el trabajo practico de JavaScript de la Diplomatura en Frontend
 Escructura del json:
-```json
+```
 {
 "id": 2,
 "title": "Camiseta de montaña y trekking manga larga Hombre NH100",
@@ -37,6 +37,8 @@ Escructura del json:
 "thumbnailUrl": "https://contents.mediadecathlon.com/p2350580/k$d42d1d38e11218191d78c205941e3dc8/sq/camiseta-de-montana-y-trekking-manga-larga-hombre-quechua-nh100.jpg?f=500x500",
 "rating": 3
 }
+```
+
 
 ## Endpoints
 
