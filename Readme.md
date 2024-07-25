@@ -8,24 +8,36 @@ Esta API proporciona un conjunto de endpoints para interactuar con la base de da
 - Express.js
 - MongoDB
 
+## Requisitos
+
+- Node.js (v14 o superior)
+- MongoDB (v4 o superior)
+
 ## Instalación
 
 Para ejecutar esta API localmente, sigue estos pasos:
 
 1. Clona el repositorio:
-   git clone url-del-repositorio
+   `git clone url-del-repositorio`
 
 2. Instala las dependencias:
-   npm install
+   `npm install`
 
-3. Inicia el servidor:
-   npm start
+3. Configura las variables de entorno en un archivo .env:
+
+```MONGODB_URI = uri_de_mongodb
+PORT = 3000
+```
+
+4. Inicia el servidor:
+   `npm start`
 
 ## Base de Datos
 
-La base de datos está creada a partir de un archivo json utilizado en el trabajo practico de JavaScript de la Diplomatura en Frontend
+La base de datos está creada a partir de un archivo json utilizado en el trabajo práctico de JavaScript de la Diplomatura en Frontend
 Escructura del json:
 
+```
 {
 "id": 2,
 "title": "Camiseta de montaña y trekking manga larga Hombre NH100",
@@ -37,6 +49,20 @@ Escructura del json:
 "thumbnailUrl": "https://contents.mediadecathlon.com/p2350580/k$d42d1d38e11218191d78c205941e3dc8/sq/camiseta-de-montana-y-trekking-manga-larga-hombre-quechua-nh100.jpg?f=500x500",
 "rating": 3
 }
+```
+
+## Estructura del Proyecto
+
+src/
+├── config/
+│ └── mongodb.js
+├── controllers/
+│ └── productController.js
+├── models/
+│ └── productModel.js
+├── routes/
+│ └── productRoutes.js
+└── app.js
 
 ## Endpoints
 
