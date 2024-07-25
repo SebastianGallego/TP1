@@ -87,11 +87,6 @@ router.post("/", checkClient, async (req, res) => {
 
   const client = await connectToMongoDB();
 
-  if (!client) {
-    res.status(500).json({ error: "Error al conectar a la base de datos" });
-    return;
-  }
-
   const collection = client.db("decathlon").collection("productos");
   collection
     .insertOne(producto)
@@ -113,11 +108,6 @@ router.patch("/:id", checkClient, async (req, res) => {
 
   const client = await connectToMongoDB();
 
-  if (!client) {
-    res.status(500).json({ error: "Error al conectar a la base de datos" });
-    return;
-  }
-
   const collection = client.db("decathlon").collection("productos");
   collection
     .updateOne({ id: productoId }, { $set: producto })
@@ -133,11 +123,6 @@ router.delete("/:id", checkClient, async (req, res) => {
   const productoId = parseInt(req.params.id) || 0;
 
   const client = await connectToMongoDB();
-
-  if (!client) {
-    res.status(500).json({ error: "Error al conectar a la base de datos" });
-    return;
-  }
 
   const collection = client.db("decathlon").collection("productos");
   collection
