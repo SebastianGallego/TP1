@@ -13,13 +13,13 @@ Esta API proporciona un conjunto de endpoints para interactuar con la base de da
 Para ejecutar esta API localmente, sigue estos pasos:
 
 1. Clona el repositorio:
-   git clone url-del-repositorio
+   ```git clone url-del-repositorio```
 
 2. Instala las dependencias:
-   npm install
+   ```npm install```
 
 3. Inicia el servidor:
-   npm start
+   ```npm start```
 
 ## Base de Datos
 
