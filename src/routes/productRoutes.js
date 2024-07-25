@@ -47,7 +47,7 @@ router.get("/producto/:title", checkClient, async (req, res) => {
   const title = req.params.title;
   const productos = await db
     .collection("productos")
-    .find({ title: title })
+    .find({ title: { $regex: title, $options: "i" } }) // Búsqueda parcial mayúsculas/minúsculas
     .toArray();
 
   await disconnectToMongoDB();
@@ -66,7 +66,7 @@ router.get("/categoria/:category", checkClient, async (req, res) => {
   const category = req.params.category;
   const productos = await db
     .collection("productos")
-    .find({ category: category })
+    .find({ category: { $regex: category, $options: "i" } })
     .toArray();
 
   await disconnectToMongoDB();
