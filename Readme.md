@@ -25,8 +25,8 @@ Para ejecutar esta API localmente, sigue estos pasos:
 
 3. Configura las variables de entorno en un archivo .env:
 
-`MONGODB_URI = uri_de_mongodb
-PORT = 3000`
+`MONGODB_URI = uri_de_mongodb`
+`PORT = 3000`
 
 4. Inicia el servidor:
    `npm start`
