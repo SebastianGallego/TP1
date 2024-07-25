@@ -26,7 +26,7 @@ Para ejecutar esta API localmente, sigue estos pasos:
 3. Configura las variables de entorno en un archivo .env:
 
 ```
-MONGODB_URI = uri_de_mongodb`
+MONGODB_URI = uri_de_mongodb
 PORT = 3000
 ```
 
@@ -55,16 +55,19 @@ Escructura del json:
 ## Estructura del Proyecto
 
 ```
-src/
-├── config/
-│ └── mongodb.js
-├── controllers/
-│ └── productController.js
-├── models/
-│ └── productModel.js
-├── routes/
-│ └── productRoutes.js
-└── app.js
+project-root/
+│
+├──src/
+│  ├── config/
+│  │   └── mongodb.js
+│  ├──middlewares/
+│  │   └── checkClient.js
+│  └── routes/
+│     └── productRoutes.js
+│
+├── package.json
+│
+└── index.js
 ```
 
 ## Endpoints

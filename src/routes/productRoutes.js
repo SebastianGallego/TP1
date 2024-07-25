@@ -1,16 +1,12 @@
 const express = require("express");
 const router = express.Router();
+const checkClient = require("../middlewares/checkClient");
 
 const { connectToMongoDB, disconnectToMongoDB } = require("../config/mongodb");
 
 // Devuelve todos los Productos
-router.get("/", async (req, res) => {
+router.get("/", checkClient, async (req, res) => {
   const client = await connectToMongoDB();
-
-  if (!client) {
-    res.status(500).json({ error: "Error al conectar a la base de datos" });
-    return;
-  }
 
   try {
     const productos = await client
@@ -18,6 +14,9 @@ router.get("/", async (req, res) => {
       .collection("productos")
       .find()
       .toArray();
+    if (productos.length === 0) {
+      return res.status(404).json({ message: "No se encontraron productos." });
+    }
     res.status(200).json(productos);
   } catch (error) {
     res.status(500).json({ error: "Error al obtener los productos" });
@@ -27,18 +26,22 @@ router.get("/", async (req, res) => {
 });
 
 // Devuelve el producto por su id
-router.get("/:id", async (req, res) => {
+router.get("/:id", checkClient, async (req, res) => {
   const client = await connectToMongoDB();
   const db = client.db("decathlon");
   const productoId = parseInt(req.params.id) || 0;
   const producto = await db.collection("productos").findOne({ id: productoId });
-
   await disconnectToMongoDB();
+  if (!producto) {
+    return res.status(404).json({
+      message: `No se encontraron productos con este id: ${productoId}`,
+    });
+  }
   res.json(producto);
 });
 
 // Filtrar Productos por nombre :nombre
-router.get("/producto/:title", async (req, res) => {
+router.get("/producto/:title", checkClient, async (req, res) => {
   const client = await connectToMongoDB();
   const db = client.db("decathlon");
   const title = req.params.title;
@@ -48,11 +51,16 @@ router.get("/producto/:title", async (req, res) => {
     .toArray();
 
   await disconnectToMongoDB();
+  if (productos.length === 0) {
+    return res.status(404).json({
+      message: `No se encontraron productos con este titulo: ${title}`,
+    });
+  }
   res.json(productos);
 });
 
-// ++ Filtrar Productos por categoria :nombre
-router.get("/categoria/:category", async (req, res) => {
+// Filtrar Productos por categoria :category
+router.get("/categoria/:category", checkClient, async (req, res) => {
   const client = await connectToMongoDB();
   const db = client.db("decathlon");
   const category = req.params.category;
@@ -62,11 +70,16 @@ router.get("/categoria/:category", async (req, res) => {
     .toArray();
 
   await disconnectToMongoDB();
+  if (productos.length === 0) {
+    return res.status(404).json({
+      message: `No se encontraron productos en esta categoria: ${category}`,
+    });
+  }
   res.json(productos);
 });
 
 // Agregar un nuevo producto
-router.post("/", async (req, res) => {
+router.post("/", checkClient, async (req, res) => {
   const producto = req.body;
   if (Object.keys(producto).length === 0) {
     res.status(422).send("No se recibió producto");
@@ -90,7 +103,7 @@ router.post("/", async (req, res) => {
 });
 
 // Actualizar precio de un producto
-router.patch("/:id", async (req, res) => {
+router.patch("/:id", checkClient, async (req, res) => {
   const producto = req.body;
   const productoId = parseInt(req.params.id) || 0;
 
@@ -116,7 +129,7 @@ router.patch("/:id", async (req, res) => {
 });
 
 // Eliminar un producto por su Id
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", checkClient, async (req, res) => {
   const productoId = parseInt(req.params.id) || 0;
 
   const client = await connectToMongoDB();
