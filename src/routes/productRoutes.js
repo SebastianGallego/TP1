@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const checkClient = require("../middlewares/checkClient");
+const { v4: uuidv4 } = require("uuid");
 
 const { connectToMongoDB, disconnectToMongoDB } = require("../config/mongodb");
 
@@ -84,6 +85,7 @@ router.post("/", checkClient, async (req, res) => {
   if (Object.keys(producto).length === 0) {
     res.status(422).send("No se recibió producto");
   }
+  producto.id = uuidv4(); // Agrego al producto el id generado por uuid
 
   const client = await connectToMongoDB();
 
